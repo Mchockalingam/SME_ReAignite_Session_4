@@ -6,8 +6,6 @@
 
 In a production enterprise, a harness must convert *model capability* into *governed execution*. The primary design question changes from “Can the model choose the right tool?” to “What makes an incorrect, malicious, stale or unauthorized tool choice incapable of causing an unacceptable action?”
 
-This workshop generalizes patterns discussed in [OpenAI's harness engineering article](https://openai.com/index/harness-engineering/), [OpenAI's explanation of the Codex agent loop](https://openai.com/index/unrolling-the-codex-agent-loop/), [Anthropic's long-running harness patterns](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents), and the [Deep Agents layered architecture](https://github.com/langchain-ai/deepagents/blob/main/libs/ARCHITECTURE.md). Those sources discuss overlapping but not identical uses of the term *harness*. The twelve-layer enterprise stack here is **a proposed reference architecture for teaching, not an official vendor or standards-body standard**.
-
 ## Distinguish the six components
 
 | Concept | Precise role | Procurement example |
