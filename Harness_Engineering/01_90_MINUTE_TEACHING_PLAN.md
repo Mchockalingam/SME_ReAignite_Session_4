@@ -1,6 +1,4 @@
-# 90-Minute Enterprise Instructor Guide
-
-## Precise agenda
+# Precise agenda
 
  Topic | What to put on screen | Participant outcome |
 |---|---:|---|---|---|
