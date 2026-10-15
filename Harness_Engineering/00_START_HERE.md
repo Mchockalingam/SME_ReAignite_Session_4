@@ -1,14 +1,10 @@
 # AI Harness Architecture: Designing Reliable Agentic Systems for Production
 
-**Enterprise technical-architecture workshop | 90 minutes | 13 October 2026**  
-**Audience:** enterprise architects, AI engineers, platform engineers, security architects, SREs, product owners, and engineering leaders.  
-**Level:** intermediate to advanced; Python familiarity helps with the live lab.
-
 ## The proposition
 
 An LLM does not become a reliable enterprise agent simply because it can call tools. An **agent harness** is the surrounding software that translates intent into **bounded, authorized, observable, resumable and evaluated execution**. The model can propose an action; the harness must decide whether it is legitimate, safe, affordable and ready to execute. The reference implementation shows that distinction in working code.
 
-This package intentionally uses a **single agent with a bounded action loop** rather than a theatrical swarm of agents. Multiple agents only become justified when specialization and parallelism create measurable benefits; they also increase failure modes, context loss and attack surface.
+This package intentionally uses a **single agent with a bounded action loop** rather than a theoritical swarm of agents. Multiple agents only become justified when specialization and parallelism create measurable benefits; they also increase failure modes, context loss and attack surface.
 
 ## Training package map
 
@@ -68,8 +64,8 @@ Participants should leave able to:
 2. Draw the **model-proposal → policy-decision → approved action → audited evidence** path.
 3. Explain each harness layer's interface, invariants, failure modes, test evidence and SLO signals.
 4. Implement a bounded agent with validated tool actions, tenant isolation, human approval and idempotency.
-5. Demonstrate that a prompt-injected model cannot jump the execution gate.
-6. Run regression tests and identify what's still missing to turn a local reference into an enterprise production service.
+5. Demonstrate that a prompt injected model cannot jump the execution gate.
+6. Run regression tests and identify what is still missing to turn a local reference into an enterprise production service.
 
 ## Success criteria
 
