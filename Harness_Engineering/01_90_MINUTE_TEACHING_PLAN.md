@@ -36,7 +36,7 @@ For each layer ask four questions: What contract crosses the boundary? What must
 
 Explain risk-tiering, separation of duties, immutable approval binding, durable state transitions, duplicate suppression, time-of-check/time-of-use (TOCTOU) revalidation, token ceilings, red-team testing and an operator kill switch. Demonstrate the important distinction between **end-to-end exactly-once effects** and **at-least-once retries plus idempotent operations**. The lab's single SQLite transaction is atomic locally; a real ERP API introduces distributed failure windows.
 
-### 57–62: Explain the business case
+### Explain the business case
 
 The agent accepts a requester submitted purchase request, validates a vendor and a cost centre, checks a policy cap, applies an approval threshold, and creates an *illustrative* PO in a local database. It may select the **next proposed workflow action**, but cannot authoritatively approve a spend or change the amount. $1,000 and above requires separate approval; $10,000 is the maximum transaction value; allowed currency is USD for simplicity.
 
